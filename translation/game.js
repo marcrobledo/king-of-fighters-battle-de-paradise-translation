@@ -521,9 +521,9 @@ const CHAR_TABLE=[
 	{id:0x0128, char:'↑'},
 	{id:0x0129, char:'↓'},
 	{id:0x012a, char:'～'},
-	//{id:0x012b, char:''}, //unused
-	//{id:0x012c, char:''}, //unused
-	//{id:0x012d, char:''}, //unused
+	{id:0x012b, char:'ñ'}, //unused, safe to use for accents?
+	{id:0x012c, char:'¡'}, //unused, safe to use for accents?
+	{id:0x012d, char:'¿'}, //unused, safe to use for accents?
 	{id:0x012e, char:'ヴ'},
 	{id:0x012f, char:'ゔ'},
 	{id:0x0130, char:'×'},
@@ -535,29 +535,29 @@ const CHAR_TABLE=[
 	{id:0x0136, char:'◇'},
 	{id:0x0137, char:'●'},
 	{id:0x0138, char:'■'},
-	//{id:0x0139, char:''}, //unused
-	//{id:0x013a, char:''}, //unused
-	//{id:0x013b, char:''}, //unused
-	//{id:0x013c, char:''}, //unused
+	//{id:0x0139, char:''}, //unused, safe to use for accents?
+	//{id:0x013a, char:''}, //unused, safe to use for accents?
+	//{id:0x013b, char:''}, //unused, safe to use for accents?
+	//{id:0x013c, char:''}, //unused, safe to use for accents?
 	{id:0x013d, char:'♪'},
 	{id:0x013e, char:'[heart]'},
 	{id:0x013f, char:'[coin]'},
 	{id:0x0140, char:'[card]'},
 	{id:0x0141, char:'★'},
 	{id:0x0142, char:'Ω'},
-	//{id:0x0143, char:''}, //unused
-	//{id:0x0144, char:''}, //unused
-	//{id:0x0145, char:''}, //unused
-	//{id:0x0146, char:''}, //unused
-	//{id:0x0147, char:''}, //unused
-	//{id:0x0148, char:''}, //unused
-	//{id:0x0149, char:''}, //unused
-	//{id:0x014a, char:''}, //unused
-	//{id:0x014b, char:''}, //unused
-	//{id:0x014c, char:''}, //unused
-	//{id:0x014d, char:''}, //unused
-	//{id:0x014e, char:''}, //unused
-	//{id:0x014f, char:''}, //unused
+	//{id:0x0143, char:''}, //used for difficulty text in some places?
+	//{id:0x0144, char:''}, //used for difficulty text in some places?
+	//{id:0x0145, char:''}, //used for difficulty text in some places?
+	//{id:0x0146, char:''}, //used for difficulty text in some places?
+	//{id:0x0147, char:''}, //used for difficulty text in some places?
+	{id:0x0148, char:'á'}, //unused, safe to use for accents?
+	{id:0x0149, char:'é'}, //unused, safe to use for accents?
+	{id:0x014a, char:'í'}, //unused, safe to use for accents?
+	{id:0x014b, char:'ó'}, //unused, safe to use for accents?
+	{id:0x014c, char:'ú'}, //unused, safe to use for accents?
+	//{id:0x014d, char:''}, //unused, safe to use for accents?
+	//{id:0x014e, char:''}, //unused, safe to use for accents?
+	//{id:0x014f, char:''}, //unused, safe to use for accents?
 	{id:0x0150, char:'悪'},
 	{id:0x0151, char:'員'},
 	{id:0x0152, char:'回'},
